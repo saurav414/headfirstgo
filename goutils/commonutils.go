@@ -1,3 +1,4 @@
+// package goutils helps to maintain all custom code at one place
 package goutils
 
 import (
@@ -7,6 +8,7 @@ import (
 	"strings"
 )
 
+// GetFloat helps to take a float number from console
 func GetFloat() (float64, error) {
 
 	reader := bufio.NewReader(os.Stdin)
