@@ -1,4 +1,4 @@
-package godbmanagener
+package godbmanager
 
 import "fmt"
 
